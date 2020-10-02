@@ -167,22 +167,9 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   background-color: #e34c26;
 }
 
-.android {
-  background-color: #f1e05a;
-}
-
-.windows {
-  background-color: #563d7c;
-}
-
-.linux {
-  background-color: #f34b7d;
-}
-
 .java {
   background-color: #b07219;
 }
-
 
 .python {
   background-color: #3572A5;
@@ -190,4 +177,16 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 
 .bash {
   background-color: #89e051;
+}
+
+.linux {
+  background-color: #f34b7d;
+}
+
+.android {
+  background-color: #f1e05a;
+}
+
+.windows {
+  background-color: #563d7c;
 }
