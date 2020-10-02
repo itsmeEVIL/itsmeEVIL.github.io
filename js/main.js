@@ -48,7 +48,7 @@ $(window).scroll (function(){
       }, 2500);
       
       $(".java").animate({
-          width: "40%"
+          width: "17%"
       }, 2500);
       
       $(".c").animate({
@@ -66,6 +66,7 @@ $(window).scroll (function(){
       $(".linux").animate({
         width: "46%"
       }, 2500);
+
       $(".android").animate({
         width: "73%"
       }, 2500);
