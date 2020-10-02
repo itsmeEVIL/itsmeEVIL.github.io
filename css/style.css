@@ -167,15 +167,15 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   background-color: #e34c26;
 }
 
-.js {
+.android {
   background-color: #f1e05a;
 }
 
-.css {
+.windows {
   background-color: #563d7c;
 }
 
-.cplus{
+.linux {
   background-color: #f34b7d;
 }
 
@@ -183,9 +183,6 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   background-color: #b07219;
 }
 
-.c {
-  background-color: #555555;
-}
 
 .python {
   background-color: #3572A5;
