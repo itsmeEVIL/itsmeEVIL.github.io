@@ -32,11 +32,11 @@ $(window).scroll (function(){
   
   if( wScroll > $('.skill').offset().top -350) {
       $(".html").animate({
-          width: "87%"
+          width: "21%"
       }, 2500);
       
       $(".js").animate({
-          width: "60%"
+          width: "17%"
       }, 2500);
       
       $(".css").animate({
@@ -60,11 +60,14 @@ $(window).scroll (function(){
       }, 2500);
       
       $(".bash").animate({
-        width: "90%"
+        width: "32"
       }, 2500);
       
       $(".linux").animate({
-        width: "97%"
+        width: "46%"
+      }, 2500);
+      $(".android").animate({
+        width: "73%"
       }, 2500);
   }
 });
