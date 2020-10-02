@@ -35,24 +35,8 @@ $(window).scroll (function(){
           width: "21%"
       }, 2500);
       
-      $(".js").animate({
-          width: "17%"
-      }, 2500);
-      
-      $(".css").animate({
-          width: "67%"
-      }, 2500);
-      
-      $(".cplus").animate({
-          width: "35%"
-      }, 2500);
-      
       $(".java").animate({
           width: "17%"
-      }, 2500);
-      
-      $(".c").animate({
-          width: "31%"
       }, 2500);
       
       $(".python").animate({
@@ -69,6 +53,10 @@ $(window).scroll (function(){
       
       $(".android").animate({
         width: "73%"
+      }, 2500);
+      
+      $(".windows").animate({
+        width: "57%"
       }, 2500);
   }
 });
