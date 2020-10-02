@@ -60,7 +60,7 @@ $(window).scroll (function(){
       }, 2500);
       
       $(".bash").animate({
-        width: "32"
+        width: "32%"
       }, 2500);
       
       $(".linux").animate({
