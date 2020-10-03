@@ -55,8 +55,8 @@ $(window).scroll (function(){
         width: "73%"
       }, 2500);
       
-      $(".windows").animate({
-        width: "57%"
+      $(".lua").animate({
+        width: "63%"
       }, 2500);
   }
 });
