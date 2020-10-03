@@ -58,7 +58,7 @@ $(window).scroll (function(){
       $(".linux").animate({
         width: "46%"
       }, 2500);
-
+      
       $(".android").animate({
         width: "52%"
       }, 2500);
