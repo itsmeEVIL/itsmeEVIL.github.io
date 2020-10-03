@@ -39,7 +39,7 @@ $(window).scroll (function(){
           width: "63%"
       }, 2500);
       
-      $(".andlua").animate({
+      $(".andluaplus").animate({
           width: "47%"
       }, 2500);
       
