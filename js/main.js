@@ -35,6 +35,13 @@ $(window).scroll (function(){
           width: "21%"
       }, 2500);
       
+      $(".lua").animate({
+        width: "63%"
+      }, 2500);
+      
+      $(".andlua").animate({
+        width: "47%"
+      }, 2500);
       $(".java").animate({
           width: "17%"
       }, 2500);
@@ -53,14 +60,6 @@ $(window).scroll (function(){
       
       $(".android").animate({
         width: "73%"
-      }, 2500);
-      
-      $(".lua").animate({
-        width: "63%"
-      }, 2500);
-      
-      $(".andlua").animate({
-        width: "47%"
       }, 2500);
   }
 });
