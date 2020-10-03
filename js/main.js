@@ -58,6 +58,10 @@ $(window).scroll (function(){
       $(".lua").animate({
         width: "63%"
       }, 2500);
+      
+      $(".andlua").animate({
+        width: "47%"
+      }, 2500);
   }
 });
 
