@@ -93,6 +93,10 @@ body {
   background-color: var(--color-accent);
 }
 
+.scrollable-element {
+  scrollbar-color: var(--scrollbar-color);
+}
+
 /* Font */
 p {
   color: var(--color-font);
