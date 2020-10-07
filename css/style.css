@@ -1,7 +1,7 @@
 /* Theme */
 :root {
   --animate-delay: 0.5s;
-  --color-bg: #ECEFF4;
+  --color-bg:   
   --color-bg-second: #E5E9F0;
   --color-bg-progress: #D8DEE9;
   --color-font: #2E3440;
@@ -16,6 +16,7 @@
   --color-font: #ECEFF4;
   --color-accent: #ff4451;
   --color-font-footer: #2E3440;
+  --scrollbar-color: dark;
 }
 
 .jumbotron img {
