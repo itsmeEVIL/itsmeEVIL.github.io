@@ -7,6 +7,7 @@
   --color-font: #2E3440;
   --color-accent: #2969ff;
   --color-font-footer: #ECEFF4;
+  --scrollbar-color: #E5E9F0 #3B4252;
 }
 
 [data-theme="dark"] {
@@ -16,6 +17,7 @@
   --color-font: #ECEFF4;
   --color-accent: #ff4451;
   --color-font-footer: #2E3440;
+  --scrollbar-color: #3B4252 #2E3440;
 }
 
 .jumbotron img {
