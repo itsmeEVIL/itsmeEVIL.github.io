@@ -48,7 +48,7 @@ $(window).scroll (function(){
       }, 2500);
       
       $(".python").animate({
-        width: "37%"
+        width: "43%"
       }, 2500);
       
       $(".bash").animate({
