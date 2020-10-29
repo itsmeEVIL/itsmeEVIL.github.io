@@ -36,7 +36,7 @@ $(window).scroll (function(){
       }, 2500);
       
       $(".lua").animate({
-          width: "63%"
+          width: "53%"
       }, 2500);
       
       $(".andluaplus").animate({
@@ -44,15 +44,15 @@ $(window).scroll (function(){
       }, 2500);
       
       $(".java").animate({
-          width: "17%"
+          width: "12%"
       }, 2500);
       
       $(".python").animate({
-        width: "43%"
+        width: "41%"
       }, 2500);
       
       $(".bash").animate({
-        width: "32%"
+        width: "29%"
       }, 2500);
       
       $(".linux").animate({
