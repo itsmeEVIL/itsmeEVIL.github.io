@@ -1,15 +1,18 @@
 /*made by itsmeevil*/
 
+/* All */
 * {
 	margin: 0;
 	position: 0;
 	box-sizing: border-box;
 }
 
+/* Html */
 html {
 	font-size: 10px;
 }
 
+/* Body */
 body {
 	background-color: white;
 	color: black;
@@ -19,24 +22,32 @@ body {
 	overflow: hidden;
 }
 
+/* Image / Profile */
 img {
 	width: 20rem;
 	height: 20rem;
 	border-radius: 50%;
 	margin: 1rem;
+	transition: 0.3s ease;
+}
+img:hover {
+	transform: scale(1.03);
 }
 
+/* H1 / Name */
 h1 {
 	color: black;
 	font-size: 4.5rem;
 	text-decoration: none;
 }
 
+/* P / Decsription */
 p {
 	font-size: 2.5rem;
 	padding: 0.5rem;
 }
 
+/* Social Media / Contacts */
 .sm {
 	display: flex;
 	justify-content: center;
@@ -47,7 +58,9 @@ p {
 	width: 5rem;
 	font-size: 2.5rem;
 	text-decoration: none;
+	transition: 0.3s ease;
 }
 .sm a:hover {
 	color: blue;
+	transform: scale(1.2);
 }
