@@ -1,4 +1,3 @@
 # itsmeEVIL.github.io
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+![Lisence: MIT](https://img.shields.io/github/license/itsmeEVIL/itsmeEVIL.github.io?style=for-the-badge)
 
-A website to share a little bit about myself to you all!
