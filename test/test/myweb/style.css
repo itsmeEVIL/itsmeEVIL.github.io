@@ -34,16 +34,16 @@ p {
 }
 
 .sm {
-	padding: 14px;
+    display: flex;
+    justify-content: center;
+    margin: 18px 0;
 }
-
 .sm a {
-	font-size: 26px;
-	color: black;
+    color: black;
+    width: 35px;
+	font-size: 27px;
 	text-decoration: none;
-	letter-spacing: 10px;
 }
-
 .sm a:hover {
 	color: blue;
 }
