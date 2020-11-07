@@ -3,7 +3,7 @@
 /* All */
 * {
 	margin: 0;
-	position: 0;
+	padding: 0;
 	box-sizing: border-box;
 	font-family: "Poppins", sans-serif;
 }
@@ -18,39 +18,43 @@ body {
 	background-color: black;
 	color: black;
 	text-align: center;
+	overflow: hidden;
 }
 
 /* Card */
 .card {
-    background-color: whitesmoke;
-    border-radius: 20px;
-    width: 300px;
-    height: 60vh;
-    margin: 120px auto;
-    padding: 40px 10px;
+	background-color: whitesmoke;
+	border-radius: 20px;
+	width: 300px;
+	margin: 120px auto;
+	padding: 40px 10px;
+	transition: 0.3s ease;
+}
+.card:hover {
+	transform: scale(1.05);
 }
 
 /* Image / Profile */
-img {
+.pic img {
 	width: 150px;
 	height: 150px;
 	border-radius: 50%;
 	margin: 10px;
 	transition: 0.3s ease;
 }
-img:hover {
+.pic img:hover {
 	transform: scale(1.03);
 }
 
 /* H1 / Name */
-h1 {
+.name h1 {
 	color: black;
 	font-size: 4rem;
 	text-decoration: none;
 }
 
 /* P / Decsription */
-p {
+.description p {
 	font-size: 2rem;
 }
 
