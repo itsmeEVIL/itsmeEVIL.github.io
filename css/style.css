@@ -1,196 +1,92 @@
-/* Theme */
-:root {
-  --animate-delay: 0.5s;
-  --color-bg: #ECEFF4;
-  --color-bg-second: #E5E9F0;
-  --color-bg-progress: #D8DEE9;
-  --color-font: #2E3440;
-  --color-accent: #2969ff;
-  --color-font-footer: #ECEFF4;
+/*made by itsmeevil*/
+
+/* All */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Poppins", sans-serif;
 }
 
-[data-theme="dark"] {
-  --color-bg: #2E3440;
-  --color-bg-second: #3B4252;
-  --color-bg-progress: #4C566A;
-  --color-font: #ECEFF4;
-  --color-accent: #ff4451;
-  --color-font-footer: #2E3440;
+/* Html */
+html {
+	font-size: 10px;
 }
 
-.jumbotron img {
-    width: 250px;
-    border: 5px solid var(--color-accent);
-}
-
-.jumbotron {
-  background-color: var(--color-bg-second);
-}
-
-hr {
-  width: 250px;
-  border-top: 3px solid var(--color-accent);
-}
-
-section {
-    min-height: 500px;
-}
-
-.progress-bar {
-    -webkit-transition: none !important;
-    transition: none !important;
-}
-
-.navbar {
-  background-color: var(--color-bg);
-}
-
-pre {
-  color: var(--color-font);
-  background-color: var(--color-bg);
-}
-
+/* Body */
 body {
-  background-color: var(--color-bg);
+	background-color: #ffdee9;
+	background-image: linear-gradient(0deg, #ffdee9, #b5fffc);
+	color: black;
+	text-align: center;
+	overflow: hidden;
+	height: 670px;
+	user-select: none;
 }
 
+/* Scrollbar */
+::-webkit-scrollbar {
+	width: 10px;
+	background-color: white;
+}
+
+::-webkit-scrollbar-thumb {
+	background-color: #ffdee9;
+}
+
+/* Card */
 .card {
-  background-color: var(--color-bg-second);
+	background-color: whitesmoke;
+	border-radius: 20px;
+	width: 300px;
+	margin: 120px auto;
+	padding: 40px 10px;
+	transition: 0.3s ease;
+	box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+.card:hover {
+	transform: scale(1.05);
 }
 
-.bg-second {
-  background-color: var(--color-bg-second);
+/* Image / Profile */
+.pic img {
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	margin: 10px;
+	transition: 0.3s ease;
+	box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+.pic img:hover {
+	transform: scale(1.03);
 }
 
-.second {
-  color: var(--color-bg-second);
+/* H1 / Name */
+.name h1 {
+	color: black;
+	font-size: 4rem;
+	text-decoration: none;
 }
 
-.accent {
-  color: var(--color-accent);
+/* P / Decsription */
+.description p {
+	font-size: 2rem;
 }
 
-.progress {
-  background-color: var(--color-bg-progress);
+/* Social Media / Contacts */
+.sm {
+	display: flex;
+	justify-content: center;
+	margin: 15px 0px 5px 0px;
 }
-
-.navbar-toggler {
-  background-color: var(--color-bg-second);
+.sm a {
+	color: black;
+	width: 50px;
+	font-size: 2.5rem;
+	text-decoration: none;
+	transition: 0.3s ease;
 }
-
-.btn {
-  color: var(--color-bg);
-  background-color: var(--color-accent);
-}
-
-.font-footer {
-  color: var(--color-font-footer);
-}
-
-.page-footer{
-  background-color: var(--color-accent);
-}
-
-/* Font */
-p {
-  color: var(--color-font);
-}
-
-.font-color {
-  color: var(--color-font);
-}
-
-h1 {
-  color: var(--color-accent);
-}
-
-h2 {
-  color: var(--color-accent);
-}
-
-h3 {
-  color: var(--color-accent);
-}
-
-h4 {
-  color: var(--color-accent);
-}
-
-h5 {
-  color: var(--color-accent);
-}
-
-h6 {
-  color: var(--color-accent);
-}
-
-@font-face {
-  font-family: 'linotte';
-  src: url('/assets/fonts/Linotte-Semi-Bold.eot'); /* IE9 Compat Modes */
-  src: url('/assets/fonts/Linotte-Semi-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('/assets/fonts/Linotte-Semi-Bold.woff') format('woff'), /* Modern Browsers */
-       url('/assets/fonts/Linotte-Semi-Bold.ttf')  format('truetype'), /* Safari, Android, iOS */
-       url('/assets/fonts/Linotte-Semi-Bold.svg#svgFontName') format('svg'); /* Legacy iOS */
-}
-
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
-    font-family: linotte;
-}
-
-/* Back to top button */
-.back-to-top {
-  position: fixed;
-  display: none;
-  background: var(--color-accent);
-  color: #fff;
-  padding: 2px 20px 8px 20px;
-  font-size: 16px;
-  border-radius: 4px 4px 0 0;
-  right: 15px;
-  bottom: 0;
-  transition: none;
-}
-
-.back-to-top:focus {
-  background: var(--color-accent);
-  color: #fff;
-  outline: none;
-}
-
-.back-to-top:hover {
-  background: var(--color-accent);
-  color: #fff;
-}
-
-/* Code color */
-.html {
-  background-color: #e34c26;
-}
-
-.lua {
-  background-color: #f1e05a;
-}
-
-.andluaplus {
-  background-color: #563d7c;
-}
-
-.java {
-  background-color: #b07219;
-}
-
-.python {
-  background-color: #3572A5;
-}
-
-.bash {
-  background-color: #89e051;
-}
-
-.linux {
-  background-color: #f34b7d;
-}
-
-.android {
-  background-color: #bac22b;
+.sm a:hover {
+	color: #f1a8c0;
+	transform: scale(1.2);
 }
