@@ -21,6 +21,7 @@ body {
 	text-align: center;
 	overflow: hidden;
 	height: 670px;
+	user-select: none;
 }
 
 /* Scrollbar */
