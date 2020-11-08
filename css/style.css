@@ -16,7 +16,13 @@ html {
 /* Body */
 body {
 	background-color: #ffdee9;
-	background-image: linear-gradient(0deg, #ffdee9, #b5fffc);
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#b5fffc), to(transparent));
+    background-image: -webkit-linear-gradient(top, #b5fffc, transparent);
+    background-image: -moz-linear-gradient(top, #b5fffc, transparent);
+    background-image: -o-linear-gradient(top, #b5fffc, transparent);
+    background-image: linear-gradient(to bottom, #b5fffc, transparent);
+    background-repeat:no-repeat;
+    background-size:100% 400px;
 	color: black;
 	text-align: center;
 	overflow: hidden;
