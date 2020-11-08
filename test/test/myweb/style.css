@@ -15,7 +15,8 @@ html {
 
 /* Body */
 body {
-	background-color: black;
+	background-color: #ffdee9;
+	background-image: linear-gradient(0deg, #ffdee9 0%, #b5fffc 100%);
 	color: black;
 	text-align: center;
 	overflow: hidden;
@@ -27,8 +28,8 @@ body {
 	background-color: white;
 }
 
-::webkit-scrollbar-thumb {
-	background-color: black;
+::-webkit-scrollbar-thumb {
+	background-color: #ffdee9;
 }
 
 /* Card */
@@ -39,6 +40,7 @@ body {
 	margin: 120px auto;
 	padding: 40px 10px;
 	transition: 0.3s ease;
+	box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
 }
 .card:hover {
 	transform: scale(1.05);
@@ -51,6 +53,7 @@ body {
 	border-radius: 50%;
 	margin: 10px;
 	transition: 0.3s ease;
+	box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
 }
 .pic img:hover {
 	transform: scale(1.03);
@@ -82,6 +85,6 @@ body {
 	transition: 0.3s ease;
 }
 .sm a:hover {
-	color: blue;
+	color: #f1a8c0;
 	transform: scale(1.2);
 }
