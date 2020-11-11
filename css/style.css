@@ -20,7 +20,7 @@ body {
 	background-repeat: no-repeat;
 	background-size: 100% 400px;
 	color: black;
-	overflow: hidden;
+	/* overflow: hidden; */
 	text-align: center;
 	user-select: none;
 }
@@ -30,8 +30,8 @@ body {
 	background-color: whitesmoke;
 	border-radius: 20px;
 	width: 300px;
-	margin: 120px auto;
-	padding: 40px 10px;
+	margin: 120px auto 45px auto;
+	padding: 50px 10px;
 	transition: 0.3s ease;
 	box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
 }
@@ -79,4 +79,22 @@ body {
 .sm a:hover {
 	color: #f1a8c0;
 	transform: scale(1.2);
+}
+
+/* Footer */
+footer {
+	width: 100%;
+	font-size: 1.3rem;
+}
+/* Footer Texts */
+.copyright {
+	position: absolute;
+	right: 10px;
+	bottom: 5px;
+	z-index: -1;
+}
+.copyright a {
+	font-weight: 1000;
+	text-decoration: none;
+	color: black;
 }
