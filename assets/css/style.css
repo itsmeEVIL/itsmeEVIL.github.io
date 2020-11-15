@@ -32,11 +32,11 @@ body {
 	margin: 120px auto 45px auto;
 	padding: 30px 0;
 	transition: 0.3s ease;
-	box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+	box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
 }
 .card:hover {
 	transform: scale(1.05);
-	box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 25px;
+	box-shadow: rgba(0, 0, 0, 0.1) 0 4px 25px;
 }
 
 /* Image / Profile */
@@ -46,11 +46,11 @@ body {
 	border-radius: 50%;
 	margin: 10px;
 	transition: 0.3s ease;
-	box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+	box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
 }
 .pic img:hover {
 	transform: scale(1.03);
-	box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 25px;
+	box-shadow: rgba(0, 0, 0, 0.1) 0 4px 25px;
 }
 
 /* H1 / Name */
@@ -68,7 +68,7 @@ body {
 .sm {
 	display: flex;
 	justify-content: center;
-	margin: 15px 0px 5px 0px;
+	margin: 15px 0 5px 0px;
 }
 .sm a {
 	color: black;
