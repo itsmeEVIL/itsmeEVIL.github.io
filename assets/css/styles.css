@@ -73,12 +73,16 @@ body {
 }
 .sm a {
     color: black;
+    outline-color: #f1a8c0;
     width: 50px;
     font-size: 2.5rem;
-    text-decoration: none;
     transition: 0.3s ease;
 }
 .sm a:hover {
+    color: #f1a8c0;
+    transform: scale(1.2);
+}
+.sm a:focus {
     color: #f1a8c0;
     transform: scale(1.2);
 }
@@ -96,6 +100,7 @@ footer {
     z-index: -1;
 }
 .copyright a {
+    padding: 0 3px;
     text-decoration: none;
     color: black;
 }
