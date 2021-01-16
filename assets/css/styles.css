@@ -1,22 +1,11 @@
 /* made by itsmeevil */
 
-/* font */
-@font-face {
-    font-family: "SF Pro Rounded";
-    src: url("./assets/fonts/SF-Pro-Rounded.eot"); /* IE9 Compat Modes */
-    src: url("./assets/fonts/SF-Pro-Rounded.eot?#iefix") format("embedded-opentype"),
-         url("./assets/fonts/SF-Pro-Rounded.woff2") format("woff2"),
-         url("./assets/fonts/SF-Pro-Rounded.woff") format("woff"),
-         url("./assets/fonts/SF-Pro-Rounded.ttf") format("truetype"),
-         url("./assets/fonts/SF-Pro-Rounded.svg#svgFontName") format("svg");
-}
-
 /* all */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "SF Pro Rounded", sans-serif;
+    font-family: "Rubik", sans-serif;
 }
 
 /* body */
