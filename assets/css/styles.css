@@ -1,11 +1,16 @@
 /* made by itsmeevil */
 
+@font-face {
+    font-family: "SF Pro Rounded";
+    src: url("./assets/fonts/SF Pro Rounded.ttf");
+}
+
 /* all */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Poppins", sans-serif;
+    font-family: "SF Pro Rounded", sans-serif;
 }
 
 /* body */
