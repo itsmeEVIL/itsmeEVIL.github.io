@@ -6,25 +6,26 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Rubik", sans-serif;
+    outline: none;
+    user-select: none;
+    text-decoration: none;
 }
 
 /* body */
 body {
-    min-height: 100vh;
-    background: linear-gradient(to top right, #b5fffc, #ffdee9);
+    height: 100vh;
+    background: linear-gradient(to top right, #17333e, #1d898c);
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
-    user-select: none;
 }
 
 /* card */
 .card {
-    background-color: whitesmoke;
+    background-color: #ece4d7;
     height: 400px;
     width: 300px;
-    border-radius: 20px;
+    border-radius: 25px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -35,21 +36,21 @@ body {
     box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
 }
 .card:hover {
-    transform: scale(1.05);
+    transform: scale(1.02);
     box-shadow: rgba(0, 0, 0, 0.1) 0 4px 25px;
 }
 
 /* pfp */
 .pic img {
-    width: 150px;
-    height: 150px;
+    width: 130px;
+    height: 130px;
     border-radius: 50%;
-    margin: 10px;
+    margin-bottom: 15px;
     transition: 0.3s ease;
     box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
 }
 .pic img:hover {
-    transform: scale(1.03);
+    transform: scale(1.02);
     box-shadow: rgba(0, 0, 0, 0.1) 0 4px 25px;
 }
 
@@ -67,19 +68,19 @@ body {
 .sm {
     display: flex;
     justify-content: center;
-    margin: 15px 0 5px;
+    align-items: center;
+    margin-top: 25px;
 }
 .sm a {
     color: black;
-    outline-color: #f1a8c0;
-    padding: 5px 10px;
-    font-size: 25px;
+    margin: 0 10px;
+    font-size: 27px;
     transition: 0.3s ease;
 }
 .sm a:hover,
 .sm a:focus {
-    color: #f1a8c0;
-    transform: scale(1.2);
+    color: #1d898c;
+    transform: scale(1.25);
 }
 
 /* footer */
@@ -92,7 +93,10 @@ footer {
     bottom: 5px;
 }
 .copyright a {
-    padding: 0 3px;
-    text-decoration: none;
-    color: black;
+    padding-right: 5px;
+    color: #ece4d7;
+}
+.copyright a:hover,
+.copyright a:focus {
+    text-decoration: underline;
 }
