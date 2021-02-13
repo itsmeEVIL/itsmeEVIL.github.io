@@ -1,5 +1,18 @@
 /* made by itsmeevil */
 
+/* variables */
+:root {
+    /* light theme */
+    --bg: #ece4d7;
+    --fg: black;
+}
+
+/* dark theme */
+.dark-theme {
+    --bg: #201e21;
+    --fg: #ece4d7;
+}
+
 /* all */
 * {
     margin: 0;
@@ -20,9 +33,62 @@ body {
     align-items: center;
 }
 
+/* light/dark theme switch */
+#switch {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    -webkit-appearance: none;
+    width: 80px;
+    height: 40px;
+    background-color: #cecac5;
+    border-radius: 25px;
+    border: 4px var(--bg) solid;
+    transition: 0.3s ease;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+}
+#switch:checked {
+    background-color: #239a9e;
+}
+#switch:hover,
+#switch:focus {
+    background-color: #b9b7b3;
+}
+#switch:hover:checked,
+#switch:focus:checked {
+    background-color: #177a7e;
+}
+#switch::before {
+    content: "";
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    background-color: var(--bg);
+    transition: 0.3s ease;
+}
+#switch:checked::before {
+    left: 42px;
+    background-color: var(--bg);
+}
+#switch::after {
+    content: url(/assets/img/light.svg);
+    position: absolute;
+    top: 6px;
+    left: 5.5px;
+    transition: 0.3s ease;
+}
+#switch:checked::after {
+    content: url(/assets/img/dark.svg);
+    top: 6px;
+    left: 46px;
+}
+
 /* card */
 .card {
-    background-color: #ece4d7;
+    background-color: var(--bg);
     height: 400px;
     width: 300px;
     border-radius: 25px;
@@ -57,11 +123,15 @@ body {
 /* name */
 .name h1 {
     font-size: 45px;
+    color: var(--fg);
+    transition: 0.3s ease;
 }
 
 /* description */
 .description p {
     font-size: 23px;
+    color: var(--fg);
+    transition: 0.3s ease;
 }
 
 /* social media icons */
@@ -71,7 +141,7 @@ body {
     margin-top: 25px;
 }
 .sm a {
-    color: black;
+    color: var(--fg);
     margin: 0 10px;
     font-size: 27px;
     transition: 0.3s ease;
